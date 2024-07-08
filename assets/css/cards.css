@@ -1,0 +1,234 @@
+.cards-section {
+    margin: 58px auto;
+    max-width: 1734px;
+}
+
+@media screen and (max-width:1440px){
+    .cards-section{
+        margin: 45px auto;
+        max-width: 1340px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .cards-section{
+        margin: 35px auto;
+        max-width: 954px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .cards-section{
+        margin: 30px auto;
+        max-width: 734px;
+    }
+}
+
+@media screen and (max-width:425px){
+    .cards-section{
+        margin: 20px auto;
+        max-width: 346px;
+    }
+}
+
+.cards-container {
+    display: flex;
+    gap: 24px;
+}
+
+@media screen and (max-width:1440px){
+    .cards-container{
+        gap: 19px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .cards-container{
+        gap: 14px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .cards-container{
+        display: grid;
+        gap: 12px;
+    }
+}
+
+@media screen and (max-width:425px){
+    .cards-container{
+        gap: 12px;
+    }
+}
+
+
+.card img {
+    width: 100%;
+    height: 405px;
+    object-fit: cover;
+}
+
+@media screen and (max-width:1440px){
+    .card img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .card img{
+        width: 100%;
+        height: 245px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:768px){
+    .card img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:425px){
+    .card img{
+        width: 100%;
+        height: 167px;
+        object-fit: cover;
+    }
+}
+
+
+.card-text {
+    background-color: rgba(249, 249, 249, 1);
+    padding: 41px 29px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+@media screen and (max-width:1440px){
+    .card-text{
+        padding: 30px 20px;
+        gap: 12px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .card-text{
+        padding: 24px 15px;
+        gap: 9px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .card-text{
+        padding:20px 12px;
+        gap: 7px;
+    }
+}
+
+@media screen and (max-width:425px){
+    .card-text{
+        padding: 38px 22px;
+        gap: 8px;
+    }
+}
+
+.card-text h3 {
+    font-family: 'Lora', serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30.72px;
+    color: rgba(32, 32, 32, 1);
+}
+
+@media screen and (max-width:1440px){
+    .card-text h3{
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .card-text h3{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .card-text h3{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:425px){
+    .card-text h3{
+        font-size: 14px;
+    }
+}
+.card-text p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    color: rgba(32, 32, 32, 1);
+}
+
+@media screen and (max-width:1440px){
+    .card-text p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .card-text p{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .card-text p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:425px){
+    .card-text p{
+        font-size: 12px;
+    }
+}
+
+.card-text a {
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.38px;
+    color: rgba(183, 146, 106, 1);
+}
+
+@media screen and (max-width:1440px){
+    .card-text a{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .card-text a{
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .card-text a{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width:425px){
+    .card-text a{
+        font-size:  12px;
+    }
+}

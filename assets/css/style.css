@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Lora:ital,wght@0,400..700;1,400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('/assets/css/header.css');
+@import url('/assets/css/hero.css');
+@import url('/assets/css/merchant-pick.css');
+@import url('/assets/css/cards.css');
+@import url('/assets/css/essentials.css');
+@import url('/assets/css/followus.css');
+@import url('/assets/css/location.css');
+@import url('/assets/css/footer.css');
+@import url('/assets/css/side-bar-menu.css');
+
+/* Variables for colors */
+:root {
+    --header-bg-color: rgba(211, 216, 220, 0.93);
+    --header-font-color: rgba(34, 37, 41, 1);
+    --header-span-color: rgba(183, 146, 106, 1);
+    --hero-section-font-color: rgba(255, 255, 255, 1);
+    --hero-section-button1-bg-color: rgba(183, 146, 106, 1);
+    --section-card-bg-color: rgba(249, 249, 249, 1);
+    --section-font-color1: rgba(0, 0, 0, 1);
+    --section-font-color2: rgba(133, 128, 128, 1);
+    --section-font-color3: rgba(32, 32, 32, 1);
+    --section-font-color4: rgba(0, 0, 0, 0.32);
+    --section-font-color5: rgba(183, 146, 106, 1);
+}
+
+/* GLOBAL STYLE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+.display-none {
+    display: none;
+}
+
+.display-block {
+    display: block !important;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}

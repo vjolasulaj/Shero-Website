@@ -1,0 +1,257 @@
+.merchant-section {
+    margin-top: 50px;
+    display: flex;
+    margin: 0 40px;
+    margin-top: 30px;
+}
+
+.merchant-section .content {
+    max-width: 1734px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+}
+
+@media screen and (max-width: 1440px) {
+    .merchant-section .content {
+        max-width: 1360px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .merchant-section .content {
+        flex-direction: column;
+        align-items: unset;
+        max-width: 734px;
+        width: 100%;
+        gap: 0px;
+    }
+}
+
+
+.merchant-section .content-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    height: 334px;
+    max-width: 300px;
+    border-radius: 2px;
+    border: 1px;
+    margin-left: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .merchant-section .content-left {
+        flex-direction: column;
+        margin-left: 0;
+    }
+}
+
+.content-left h3 {
+    font-family: 'Lora', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 51.2px;
+    text-align: left;
+}
+
+.content-left p {
+    width: 100%;
+    height: auto;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.82px;
+    text-align: left;
+    color: #858080;
+}
+
+
+.content-left .btn-view {
+    width: 100%;
+    height: 75px;
+    border-radius: 2px;
+    border: 1px solid rgba(183, 146, 106, 1);
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(32, 32, 32, 1)
+}
+
+.slide-container {
+    display: flex;
+    height: 100%;
+}
+
+.slide-container>img {
+    width: 100%;
+    height: 100%;
+}
+
+.award-slide {
+    width: 100%;
+    height: 100%;
+    background-color: #202020;
+    background-image: url("/assets/images/OBJECTS (1).png")
+}
+
+
+.circle-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    height: 100%;
+}
+
+
+#title {
+    width: 262.49px;
+    top: 119.22px;
+    left: 677.02px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Lora;
+    font-size: 24.06px;
+    font-weight: 600;
+    line-height: 30.8px;
+    text-align: center;
+    color: #B7926A;
+}
+
+#content {
+    width: 307px;
+    height: auto;
+    top: 195px;
+    left: 664px;
+    font-family: 'Montserrat';
+    font-size: 15.31px;
+    font-weight: 400;
+    line-height: 18.67px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.circle-content button {
+    width: 101.72px;
+    height: 27.34px;
+    background-color: transparent;
+    border: 0.55px solid #B7926A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle-content button span {
+    width: 72.25px;
+    height: 13.63px;
+    top: 303px;
+    left: 161px;
+    color: #B7926A;
+}
+
+
+.embla {
+    overflow: hidden;
+}
+
+.embla__container {
+    display: flex;
+}
+
+
+.embla__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+    display: block;
+    aspect-ratio: 1 / 1;
+}
+
+@media screen and (min-width: 1024px) {
+    .embla__slide {
+        flex: 0 0 50%;
+    }
+}
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: -25px;
+}
+
+.embla__prev,
+.embla__next {
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    min-width: 30px;
+    min-height: 30px;
+}
+
+@media screen and (max-width: 1024px) {
+    .content-left h3 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content-left h3 {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .content-left {
+        display: block;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .content {
+        display: grid;
+        max-width: 346px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .content-left p {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content-left p {
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .content-left .btn-view {
+        padding: 18px 0px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content-left .btn-view {
+        padding: 10px 0px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content-left .btn-view {
+        width: 123px;
+        height: 28px;
+        font-size: 12px;
+    }
+}
