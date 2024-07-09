@@ -11,14 +11,14 @@
     }
 }
 
-@media screen and (max-width:1024px){
-    .follow-us{
+@media screen and (max-width:1024px) {
+    .follow-us {
         margin: 55px auto;
     }
 }
 
-@media screen and (max-width:768px){
-    .follow-us{
+@media screen and (max-width:768px) {
+    .follow-us {
         margin: 45px auto;
     }
 }
@@ -41,23 +41,23 @@
     }
 }
 
-@media screen and (max-width:1024px){
-    .followus-container{
+@media screen and (max-width:1024px) {
+    .followus-container {
         gap: 35px;
         margin: 0px 35px;
     }
 }
 
-@media screen and (max-width:768px){
-    .followus-container{
+@media screen and (max-width:768px) {
+    .followus-container {
         display: grid;
         gap: 30px;
         margin: 0px 30px;
     }
 }
 
-@media screen and (max-width:425px){
-    .followus-container{
+@media screen and (max-width:425px) {
+    .followus-container {
         max-width: 346px;
     }
 }
@@ -82,22 +82,22 @@
     }
 }
 
-@media screen and (max-width:1024px){
-    .followus-text{
+@media screen and (max-width:1024px) {
+    .followus-text {
         max-width: 250px;
         gap: 15px;
     }
 }
 
-@media screen and (max-width:768px){
-    .followus-text{
+@media screen and (max-width:768px) {
+    .followus-text {
         max-width: 250px;
         gap: 10px;
     }
 }
 
-@media screen and (max-width:425px){
-    .followus-text{
+@media screen and (max-width:425px) {
+    .followus-text {
         max-width: 327px;
         gap: 8px;
     }
@@ -117,20 +117,20 @@
     }
 }
 
-@media screen and (max-width:1024px){
-    .followus-text h3{
+@media screen and (max-width:1024px) {
+    .followus-text h3 {
         font-size: 24px;
     }
 }
 
-@media screen and (max-width:768px){
-    .followus-text h3{
+@media screen and (max-width:768px) {
+    .followus-text h3 {
         font-size: 20px;
     }
 }
 
-@media screen and (max-width:425px){
-    .followus-text h3{
+@media screen and (max-width:425px) {
+    .followus-text h3 {
         font-size: 24px;
     }
 }
@@ -149,20 +149,20 @@
     }
 }
 
-@media screen and (max-width:1024px){
-    .followus-text p{
+@media screen and (max-width:1024px) {
+    .followus-text p {
         font-size: 15px;
     }
 }
 
-@media screen and (max-width:768px){
-    .followus-text p{
+@media screen and (max-width:768px) {
+    .followus-text p {
         font-size: 13px;
     }
 }
 
-@media screen and (max-width:425px){
-    .followus-text p{
+@media screen and (max-width:425px) {
+    .followus-text p {
         font-size: 12px;
     }
 }
@@ -180,31 +180,31 @@
     cursor: pointer;
 }
 
-@media screen and (max-width:1440px){
-    .followus-text .btn-follow{
+@media screen and (max-width:1440px) {
+    .followus-text .btn-follow {
         padding: 18px 0px;
         font-size: 18px;
     }
 }
 
-@media screen and (max-width:1024px){
-    .followus-text .btn-follow{
+@media screen and (max-width:1024px) {
+    .followus-text .btn-follow {
         padding: 15px 0px;
         font-size: 15px;
     }
 }
 
-@media screen and (max-width:768px){
-    .followus-text .btn-follow{
+@media screen and (max-width:768px) {
+    .followus-text .btn-follow {
         padding: 10px 0px;
         font-size: 12px;
     }
 }
 
-@media screen and (max-width:425px){
-    .followus-text .btn-follow{
+@media screen and (max-width:425px) {
+    .followus-text .btn-follow {
         width: 123px;
-       padding: 2px 8px;
+        padding: 2px 8px;
     }
 }
 
@@ -275,3 +275,5 @@
         object-fit: cover;
     }
 }
+
+
