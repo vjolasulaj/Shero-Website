@@ -2,7 +2,7 @@
     position: fixed;
     display: none;
     z-index: 999;
-    min-height: 100vh;
+    height: 100%;
 }
 
 @media screen and (min-width:769px) {
@@ -19,6 +19,12 @@
     gap: 10px;
 }
 
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .side-nav-inner {
+        padding: 90px;
+    }
+}
+
 .side-nav-inner a {
     font-size: 18px;
     text-decoration: none;
@@ -28,12 +34,20 @@
     color: var(--header-font-color);
 }
 
-@media screen and (min-width:425px) {
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .side-nav-inner a {
+        font-size: 22px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* @media screen and (min-width:425px) {
     .side-nav-inner a{
         font-size: 15px;
         
     }
-}
+} */
 
 .side-navbackdrop {
     width: 100vw;

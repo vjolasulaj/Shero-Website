@@ -1,49 +1,56 @@
 .location-section {
-    margin: 113px auto;
-    max-width: 1734px;
+    margin: 113px 93px;
 }
 
-@media screen and (max-width:1440px) {
+@media screen and (min-width:1440px) and (max-width:1919px) {
     .location-section {
-        margin: 70px auto;
-        max-width: 1340px;
+        margin: 0 auto;
+        max-width: 1250px;
+        padding-bottom: 50px;
     }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (min-width:1024px) and (max-width:1439px) {
     .location-section {
-        margin: 55px auto;
-        max-width: 954px;
+        margin: 55px 35px;
+        max-width: unset;
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:768px) and (max-width:1023px) {
     .location-section {
         margin: 45px auto;
-        max-width: 718px;
+        padding: 0 30px;
     }
 
 }
 
-@media screen and (max-width:425px){
-    .location-section{
-        max-width: 345px;
+@media screen and (min-width:0px) and (max-width:767px) {
+    .location-section {
+        margin: 0 16px;
     }
 }
 
 .location-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
 }
 
-@media screen and (max-width:768px){
-    .location-container{
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .location-container {
         display: block;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:767px) {
+    .location-container {
+        display: grid;
     }
 }
 
 .location-left {
     display: flex;
+    flex-basis: 50%;
     background-color: rgba(32, 32, 32, 1);
     align-items: center;
     justify-content: center;
@@ -51,7 +58,11 @@
     gap: 35px;
 }
 
-@media screen and (max-width:1440px) {
+.location-right {
+    flex-basis: 50%;
+}
+
+@media screen and (min-width:1440px) and (max-width:1919px) {
     .location-left {
         gap: 20px;
     }
@@ -63,49 +74,52 @@
     }
 }
 
-@media screen and (max-width:768px){
-    .location-left{
-        max-width: 718px;
-        height: 450px;
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .location-left {
+        max-height: 450px;
+        min-height: 450px;
     }
 }
 
-@media screen and (max-width:425px){
-    .location-left{
-        max-width: 345px;
+@media screen and (min-width:0px) and (max-width:767px) {
+    .location-left {
         height: 355px;
     }
 }
 
 .location-right iframe {
-    width: 861px;
+    width: 100%;
     height: 540px;
 }
 
-@media screen and (max-width:1440px) {
+.location-left svg {
+    width: 50px;
+    height: 49.24px;
+}
+
+@media screen and (min-width:0px) and (max-width:767px) {
+    .location-left svg {
+        width: 23.75px;
+        height: 22.96px;
+    }
+}
+
+@media screen and (min-width:1440px) and (max-width:1919px) {
     .location-right iframe {
         width: 100%;
         height: 405px;
     }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (min-width:768px) and (max-width:1023px) {
     .location-right iframe {
-        width: 100%;
-        height: 300px;
+        max-height: 450px;
+        min-height: 450px;
     }
 }
 
-@media screen and (max-width:768px){
-    .location-right iframe{
-        width: 718px;
-        height: 450px;
-    }
-}
-
-@media screen and (max-width:425px){
-    .location-right iframe{
-        width: 345px;
+@media screen and (min-width:0px) and (max-width:767px) {
+    .location-right iframe {
         height: 355px;
     }
 }
@@ -122,7 +136,7 @@
     text-align: center;
 }
 
-@media screen and (max-width:1440px) {
+@media screen and (min-width:1440px) and (max-width:1919px) {
     .location-text h4 {
         font-size: 26px;
     }
@@ -130,12 +144,12 @@
 
 @media screen and (max-width:1024px) {
     .location-text h4 {
-        font-size: 22px;
+        font-size: 24px;
     }
 }
 
-@media screen and (max-width:425px){
-    .location-text h4{
+@media screen and (min-width:0px) and (max-width:767px) {
+    .location-text h4 {
         font-size: 18px;
     }
 }
@@ -150,27 +164,20 @@
     text-align: center;
 }
 
-@media screen and (max-width:1440px) {
+@media screen and (min-width:1440px) and (max-width:1919px) {
     .location-text p {
-        font-size: 18px;
+        font-size: 22px;
     }
 }
 
 @media screen and (max-width:1024px) {
     .location-text p {
-        font-size: 15px;
+        font-size: 21px;
     }
 }
 
-@media screen and (max-width:425px){
-    .location-text p{
+@media screen and (min-width:0px) and (max-width:767px) {
+    .location-text p {
         font-size: 14px;
-    }
-}
-
-@media screen and (max-width:425px){
-    .location-left svg{
-        width: 30px;
-        height: 29px;
     }
 }

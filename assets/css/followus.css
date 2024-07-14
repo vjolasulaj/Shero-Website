@@ -2,63 +2,71 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 113px auto;
+    margin: 113px 93px;
 }
 
-@media screen and (max-width:1440px) {
+@media screen and (min-width:1440px) and (max-width:1919px) {
     .follow-us {
-        margin: 70px auto;
+        margin: 93px 46px;
     }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (min-width:1024px) and (max-width:1439px) {
     .follow-us {
         margin: 55px auto;
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:768px) and (max-width:1023px) {
     .follow-us {
         margin: 45px auto;
     }
 }
 
+@media screen and (min-width:0px) and (max-width:767px) {
+    .follow-us {
+        margin: 0px 16px;
+    }
+}
+
 .followus-container {
-    max-width: 1734px;
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: row;
-    gap: 80px;
+    gap: 109px;
     justify-content: space-between;
     align-items: start;
 }
 
-@media screen and (max-width:1440px) {
+@media screen and (min-width:1440px) and (max-width:1919px) {
     .followus-container {
         gap: 45px;
         margin: 0px 50px;
     }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (min-width:1024px) and (max-width:1439px) {
     .followus-container {
         gap: 35px;
         margin: 0px 35px;
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:768px) and (max-width:1023px) {
     .followus-container {
         display: grid;
         gap: 30px;
-        margin: 0px 30px;
+        margin: -44px 30px;
     }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (min-width:0px) and (max-width:767px) {
     .followus-container {
-        max-width: 346px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 0;
     }
 }
 
@@ -75,24 +83,26 @@
     border: 1px;
 }
 
-@media screen and (max-width:1440px) {
+@media screen and (min-width:1440px) and (max-width:1919px) {
     .followus-text {
-        max-width: 300px;
         gap: 20px;
     }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (min-width:1024px) and (max-width:1439px) {
     .followus-text {
         max-width: 250px;
         gap: 15px;
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:768px) and (max-width:1023px) {
     .followus-text {
-        max-width: 250px;
-        gap: 10px;
+        display: inline-block;
+        max-width: 100%;
+        position: relative;
+        text-align: left;
+        width: 100%;
     }
 }
 
@@ -111,21 +121,21 @@
     color: rgba(0, 0, 0, 1);
 }
 
-@media screen and (max-width:1440px) {
+@media screen and (min-width:1440px) and (max-width:1919px) {
     .followus-text h3 {
-        font-size: 29px;
+        font-size: 40px;
     }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (min-width:1024px) and (max-width:1439px) {
+    .followus-text h3 {
+        font-size: 26px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
     .followus-text h3 {
         font-size: 24px;
-    }
-}
-
-@media screen and (max-width:768px) {
-    .followus-text h3 {
-        font-size: 20px;
     }
 }
 
@@ -143,21 +153,21 @@
     color: rgba(133, 128, 128, 1);
 }
 
-@media screen and (max-width:1440px) {
+@media screen and (min-width:1440px) and (max-width:1919px) {
     .followus-text p {
-        font-size: 18px;
+        font-size: 22px;
     }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (min-width:1024px) and (max-width:1439px) {
     .followus-text p {
         font-size: 15px;
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:768px) and (max-width:1023px) {
     .followus-text p {
-        font-size: 13px;
+        font-size: 12px;
     }
 }
 
@@ -171,6 +181,7 @@
     padding: 23px 0px;
     font-family: 'Work Sans', sans-serif;
     font-size: 24px;
+    max-width: 328px;
     font-weight: 500;
     line-height: 29.26px;
     text-align: center;
@@ -180,100 +191,55 @@
     cursor: pointer;
 }
 
-@media screen and (max-width:1440px) {
+@media screen and (min-width:1440px) and (max-width:1919px) {
     .followus-text .btn-follow {
         padding: 18px 0px;
-        font-size: 18px;
+        font-size: 22px;
     }
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (min-width:1024px) and (max-width:1439px) {
     .followus-text .btn-follow {
         padding: 15px 0px;
         font-size: 15px;
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:768px) and (max-width:1023px) {
     .followus-text .btn-follow {
-        padding: 10px 0px;
+        padding: 5px 30px;
         font-size: 12px;
+        width: 126px;
     }
 }
 
-@media screen and (max-width:425px) {
+@media screen and (min-width:0px) and (max-width:767px) {
     .followus-text .btn-follow {
+        font-size: 12px;
+        padding: 9px 30px;
         width: 123px;
-        padding: 2px 8px;
+        height: 28px;
     }
 }
 
-.followus-images {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 2fr;
-    gap: 3px;
+#eapps-instagram-feed-1>div.eapps-instagram-feed-container>div.eapps-instagram-feed-content>div.eapps-instagram-feed-posts-container>div>div.eapps-instagram-feed-posts-grid-load-more-container.eapps-instagram-feed-posts-grid-load-more-enabled {
+    display: none !important;
 }
 
-@media screen and (max-width:1440px) {
-    .followus-images {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 2fr;
-        gap: 8px;
+
+#eapps-instagram-feed-1>div.eapps-instagram-feed-container>div.eapps-instagram-feed-content>div.eapps-instagram-feed-posts-container>div>div.eapps-instagram-feed-posts-inner.es-layout-grid-content {
+    width: unset !important;
+}
+
+#eapps-instagram-feed-1 .eapps-instagram-feed-posts-item-overlay {
+    background: rgba(17, 17, 17, 0.6) !important;
+}
+
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    #eapps-instagram-feed-1>div.eapps-instagram-feed-container>div.eapps-instagram-feed-content>div.eapps-instagram-feed-posts-container>div>div.eapps-instagram-feed-posts-inner.es-layout-grid-content>div {
+        min-height: 0px;
+        margin: -1.5px;
+        width: 960px !important;
     }
 }
-
-@media screen and (max-width:1024px){
-    .followus-images{
-        display: grid;
-        gap: 5px;
-    }
-}
-
-@media screen and (max-width:768px){
-    .followus-images{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 4px;
-    }
-}
-
-.followus-images img {
-    width: 433px;
-    height: 100%;
-    object-fit: cover;
-}
-@media screen and (max-width:1440px){
-    .followus-images img{
-        width: 280px;
-        height: 100%;
-        object-fit: cover;
-    }
-}
-
-@media screen and (max-width:1024px){
-    .followus-images img{
-        width: 230px;
-        height: 100%;
-        object-fit: cover;
-    }
-}
-
-@media screen and (max-width:768px){
-    .followus-images img{
-        width: 351px;
-        height: 391px;
-        object-fit: cover;
-    }
-}
-
-@media screen and (max-width:425px){
-    .followus-images img{
-        width: 172px;
-        height: 160px;
-        object-fit: cover;
-    }
-}
-
-

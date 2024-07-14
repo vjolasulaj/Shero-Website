@@ -28,7 +28,7 @@ infoLinksTitle.addEventListener("click", () => {
 });
 
 moreLinksTitle.addEventListener("click", () => {
-  togglevisibility("more-links");
+  togglevisibility("more-link");
   toggleSvgDirection("#more-links-title > svg");
 });
 
@@ -64,4 +64,3 @@ const searchButton = document.getElementById("search-svg");
 searchButton.addEventListener("click", () => {
   toggleSearchBar();
 });
-
