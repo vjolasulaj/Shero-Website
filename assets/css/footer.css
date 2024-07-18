@@ -4,6 +4,12 @@ footer {
     border-top: 1px solid rgba(183, 146, 106, 1);
 }
 
+@media screen and (min-width:0px) and (max-width:768px) {
+    footer {
+        border-top: none;
+    }
+}
+
 .footer-inner {
     display: flex;
     gap: 120px;
@@ -38,13 +44,20 @@ footer {
 
 @media screen and (min-width:0px) and (max-width:767px) {
     .footer-inner {
-        margin: 20px 16px;
+        margin: 44px 24px;
         gap: 20px;
     }
 }
 
 .footer-details {
     flex-basis: 25%;
+}
+
+@media screen and (min-width:0px) and (max-width:767px) {
+    .footer-details {
+        margin: 0px 6px;
+    }
+
 }
 
 @media screen and (min-width:768px) and (max-width:1439px) {
@@ -132,12 +145,17 @@ footer {
 
 @media screen and (min-width:0px) and (max-width:767px) {
     .footer-details h6 {
+        font-family: 'Cormorant', sans-serif;
         font-size: 16.88px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0.4000000059604645px;
+        text-align: left;
     }
 }
 
 .footer-details p {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 17.07px;
@@ -159,7 +177,25 @@ footer {
 
 @media screen and (min-width:0px) and (max-width:767px) {
     .footer-details p {
+        font-family: 'Cormorant', sans-serif;
         font-size: 14px;
+        font-weight: 400;
+        line-height: 16.95px;
+        text-align: left;
+        color: rgba(0, 0, 0, 1);
+        margin-bottom: 27px;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:767px) {
+    .footer-details .email {
+        font-family: 'Inter', sans-serif;
+        font-size: 14.3px;
+        font-weight: 400;
+        line-height: 21.56px;
+        letter-spacing: 0.4000000059604645px;
+        text-align: left;
+        margin-bottom: 8px;
     }
 }
 
@@ -193,12 +229,19 @@ footer {
     }
 }
 
+@media screen and (min-width:0px) and (max-width:768px) {
+    .footer-details .email-input {
+        margin-bottom: 10px;
+        border-bottom: 1px solid rgba(199, 165, 128, 1);
+    }
+}
+
 .footer-details .btn-signup {
     padding: 11px 20px;
     min-width: 100%;
     border: 0.5px solid rgba(71, 68, 67, 1);
     background-color: rgb(255, 255, 255);
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 17.07px;
@@ -225,6 +268,7 @@ footer {
         height: 48px;
         font-size: 13px;
         max-width: 345px !important;
+        margin-bottom: 19px;
     }
 }
 
@@ -233,7 +277,7 @@ footer {
     display: flex;
     gap: 15.3px;
     align-items: center;
-    margin-top: 29px;
+    margin-top: 28px;
 }
 
 
@@ -252,6 +296,12 @@ footer {
     }
 }
 
+@media screen and (min-width:0px) and (max-width:768px) {
+    .footer-details .footer-icons {
+        margin-top: 20px;
+    }
+}
+
 
 @media screen and (min-width:0px) and (max-width:768px) {
     .footer-icons-desktop {
@@ -259,9 +309,16 @@ footer {
     }
 }
 
+
 @media screen and (min-width:768px) {
     .footer-icons-mobile {
         display: none !important;
+    }
+}
+
+@media screen and (min-width:0px) and (max-width:768px) {
+    .footer-icons .footer-icons-mobile{
+        margin-left: 10px;
     }
 }
 
@@ -278,6 +335,8 @@ footer {
 @media screen and (min-width:0px) and (max-width:1023px) {
     .customer-service {
         min-width: 250px;
+        margin-left: 14px;
+        margin-right: 14px;
     }
 }
 
@@ -292,7 +351,7 @@ footer {
 
 
 
-@media screen and (min-width:768px) and (max-width:1023px) {
+@media screen and (min-width:0px) and (max-width:767px) {
     .footer-title {
         border-bottom: 1px solid rgb(184, 184, 184);
     }
@@ -302,7 +361,7 @@ footer {
 
 
 .customer-service h4 {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 17.6px;
@@ -328,12 +387,13 @@ footer {
         font-size: 14.88px;
         color: rgba(0, 0, 0, 0.8);
         text-transform: none;
-        font-weight: 500;
+        font-weight: 600;
+        line-height: 14px;
     }
 }
 
 .customer-service h5 {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: rgba(183, 146, 106, 1);
     text-transform: uppercase;
     font-size: 14px;
@@ -351,7 +411,7 @@ footer {
 
 
 .customer-links p {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -385,11 +445,13 @@ footer {
 @media screen and (min-width:0px) and (max-width:1023px) {
     .information-links {
         min-width: 250px;
+        margin-left: 14px;
+        margin-right: 14px;
     }
 }
 
 .information-links h4 {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 17.6px;
@@ -409,7 +471,8 @@ footer {
         font-size: 14.88px;
         color: rgba(0, 0, 0, 0.8);
         text-transform: none;
-        font-weight: 500;
+        font-weight: 600;
+        line-height: 14px;
     }
 }
 
@@ -429,7 +492,7 @@ footer {
 .information-links a {
     display: flex;
     text-decoration: none;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -446,11 +509,13 @@ footer {
 @media screen and (min-width:0px) and (max-width: 1023px) {
     .more-links {
         min-width: 250px;
+        margin-left: 14px;
+        margin-right: 14px;
     }
 }
 
 .more-links h4 {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 300;
     line-height: 17.6px;
@@ -470,7 +535,8 @@ footer {
         font-size: 14.88px;
         color: rgba(0, 0, 0, 0.8);
         text-transform: none;
-        font-weight: 500;
+        font-weight: 600;
+        line-height: 14px;
     }
 }
 
@@ -489,7 +555,7 @@ footer {
 .more-links a {
     display: flex;
     text-decoration: none;
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -530,7 +596,7 @@ footer .bottom-details {
 
 @media screen and (min-width:0px) and (max-width:767px) {
     footer .bottom-details {
-        margin: 10px 16px;
+        margin: -30px 28px;
     }
 }
 
@@ -538,7 +604,7 @@ footer .bottom-details {
 
 
 .bottom-details p {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 40px;
@@ -547,9 +613,9 @@ footer .bottom-details {
     color: rgba(28, 28, 28, 1);
 }
 
-/* @media screen and (min-width:1440px) and (max-width:1919px) {
+@media screen and (min-width:1440px) and (max-width:1919px) {
     .bottom-details p {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
 
@@ -562,8 +628,10 @@ footer .bottom-details {
 @media screen and (min-width:0px) and (max-width:768px) {
     .bottom-details p {
         font-size: 14px;
+        max-width: 333px;
+        line-height: 40px;
     }
-} */
+}
 
 .footer-content-inner {
     display: block;

@@ -1,5 +1,6 @@
 .hero-section {
     position: relative;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .hero-section img {
@@ -30,7 +31,10 @@
 
 @media screen and (min-width:0px) and (max-width:767px) {
     .hero-section img {
-        max-height: 342px;
+        object-fit: cover;
+        /* max-height: 342px; */
+        /* max-width: 100%; */
+        height: 342px;
     }
 }
 
@@ -76,7 +80,9 @@
     .hero-text {
         max-width: 400px;
         gap: 5px;
-        margin-left: 30px;
+        margin-left: 24px;
+        padding-bottom: 20px;
+        margin-top: 41px;
     }
 }
 
@@ -110,11 +116,12 @@
 @media screen and (min-width:0px) and (max-width:767px) {
     .hero-text h1 {
         font-size: 32px;
+        line-height: 41px;
     }
 }
 
 .hero-text p {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 26px;
     font-weight: 400;
     /* line-height: 31.69px; */
@@ -141,6 +148,7 @@
     .hero-text p {
         font-size: 12px;
         max-width: 303px;
+        line-height: 14.63px;
     }
 }
 
@@ -176,13 +184,14 @@
     .hero-buttons {
         width: 146px;
         gap: 5px;
+        margin-top: 10px;
     }
 }
 
 .btn-shop {
     background-color: var(--hero-section-button1-bg-color);
     color: var(--hero-section-font-color);
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 29.26px;
@@ -220,11 +229,13 @@
     .btn-shop {
         padding: 2px 0px;
         font-size: 12px;
+        line-height: 14.63px;
+        height: 28px;
     }
 }
 
 .btn-join {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: rgba(28, 28, 28, 1);
     background-color: rgba(255, 255, 255, 1);
     font-size: 24px;
@@ -263,6 +274,8 @@
 @media screen and (min-width:0px) and (max-width:767px) {
     .btn-join {
         padding: 2px 0px;
-        font-size: 12px;
+        font-size: 14px;
+        height: 28px;
+        line-height: 17.07px;
     }
 }
