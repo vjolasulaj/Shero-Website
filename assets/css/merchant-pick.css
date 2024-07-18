@@ -275,6 +275,7 @@
         font-size: 12px;
         text-shadow: none;
         line-height: 14.63px;
+        max-width: 322px;
     }
 }
 

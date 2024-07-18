@@ -149,6 +149,8 @@
         font-size: 12px;
         max-width: 303px;
         line-height: 14.63px;
+        height: 45px;
+        letter-spacing: 0.06px;
     }
 }
 
